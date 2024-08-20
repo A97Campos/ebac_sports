@@ -6,7 +6,6 @@ import { useSelector } from 'react-redux'
 
 import { RootReduceer } from '../../store'
 
-
 const Header = () => {
   const itens = useSelector((state: RootReduceer) => state.carrinho.itens)
   const favoritos = useSelector((state: RootReduceer) => state.favoritos.itens)
